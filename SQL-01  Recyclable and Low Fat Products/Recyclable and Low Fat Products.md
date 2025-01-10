@@ -2,47 +2,46 @@
 
 ## Problem Statement
 
-You are given a table `Products` with the following columns:
+<pre>+-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| product_id  | int     |
+| low_fats    | enum    |
+| recyclable  | enum    |
++-------------+---------+
+product_id is the primary key (column with unique values) for this table.
+low_fats is an ENUM (category) of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.
+recyclable is an ENUM (category) of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.</pre>
 
-- `product_id` (integer) - The ID of the product. This is the primary key of the table.
-- `low_fats` (enum) - This indicates whether the product is low fat. The possible values are:
-  - `'Y'` (Yes) – the product is low fat.
-  - `'N'` (No) – the product is not low fat.
-- `recyclable` (enum) - This indicates whether the product is recyclable. The possible values are:
-  - `'Y'` (Yes) – the product is recyclable.
-  - `'N'` (No) – the product is not recyclable.
+<p>&nbsp;</p>
 
-You need to write an SQL query to find the IDs of products that are both low fat and recyclable.
+<p>Write a solution to find the ids of products that are both low fat and recyclable.</p>
 
-### Table: Products
+<p>Return the result table in <strong>any order</strong>.</p>
 
-| product_id | low_fats | recyclable |
-|------------|----------|------------|
-| 0          | Y        | N          |
-| 1          | Y        | Y          |
-| 2          | N        | Y          |
-| 3          | Y        | Y          |
-| 4          | N        | N          |
+<p>The result format is in the following example.</p>
 
-### Example:
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-#### Input:
-
-| product_id | low_fats | recyclable |
-|------------|----------|------------|
-| 0          | Y        | N          |
-| 1          | Y        | Y          |
-| 2          | N        | Y          |
-| 3          | Y        | Y          |
-| 4          | N        | N          |
-
-#### Output:
-
-| product_id |
-|------------|
-| 1          |
-| 3          |
-
-### Explanation:
-
-- Only the products with `product_id` 1 and 3 are both low fat and recyclable. Thus, they are the ones that should be returned in the result.
+<pre><strong>Input:</strong> 
+Products table:
++-------------+----------+------------+
+| product_id  | low_fats | recyclable |
++-------------+----------+------------+
+| 0           | Y        | N          |
+| 1           | Y        | Y          |
+| 2           | N        | Y          |
+| 3           | Y        | Y          |
+| 4           | N        | N          |
++-------------+----------+------------+
+<strong>Output:</strong> 
++-------------+
+| product_id  |
++-------------+
+| 1           |
+| 3           |
++-------------+
+<strong>Explanation:</strong> Only products 1 and 3 are both low fat and recyclable.
+</pre>
+</div>
