@@ -1,6 +1,8 @@
-# LeetCode SQL 50 Solutions
+# [LeetCode SQL 50 Solutions](https://github.com/dishant4163/SQL-50-LeetCode)👨‍💻
 
-This repository contains my solutions to the top 50 SQL problems on LeetCode. The purpose of this repository is to help me improve and strengthen my SQL skills through solving these problems.This included easy, medium and hard level questions from various topics mentioned below.
+- This repository contains my solutions to the top 50 SQL problems on LeetCode.
+- The purpose of this repository is to help me improve and strengthen my SQL skills through solving these problems.
+- This included easy, medium and hard level questions from various topics mentioned below.
 
 ## Problems Covered
 - Selects
@@ -10,3 +12,11 @@ This repository contains my solutions to the top 50 SQL problems on LeetCode. Th
 - Advanced Select and Joins
 - Subqueries
 - Advanced String Functions / Regex / Clause
+
+## SQL-50 Practice Platform
+```bash
+https://leetcode.com/studyplan/top-sql-50/
+```
+
+
+
