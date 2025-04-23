@@ -21,6 +21,7 @@ https://leetcode.com/studyplan/top-sql-50/
 
 
 ### TOP SQL 50 LeetCode Badge 
+- [My LeetCode Profile](https://leetcode.com/u/dishantpal/)
 
 <p align="center"> <img src="Top_SQL_50.gif" alt="Top SQL 50 Badge" /> </p>
 
